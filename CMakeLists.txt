@@ -22,3 +22,7 @@ endif()
 # Instruct the compiler to output a dynamic library (.dll or .dylib)
 add_library(GeoDashCore SHARED ${SOURCES})
 
+# FIX: Link native Apple runtime layers if compiling on Mac
+if(APPLE)
+    target_link_libraries(GeoDashCore PRIVATE "-framework Foundation" "-framework CoreFoundation" "-lobjc")
+endif()
