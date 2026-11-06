@@ -36,7 +36,6 @@
         "CLANG_ENABLE_MODULES": "YES",
         "CODE_SIGN_STYLE": "Automatic",
         "CURRENT_PROJECT_VERSION": "1",
-        "DEVELOPMENT_TEAM": "25X4VXN3L2",
         "ENABLE_APP_SANDBOX": "YES",
         "ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER": "readwrite",
         "ENABLE_INCOMING_NETWORK_CONNECTIONS": "NO",
@@ -117,6 +116,7 @@
     "DEAD_CODE_STRIPPING": "YES",
     "DEBUG_INFORMATION_FORMAT[config=Debug]": "dwarf",
     "DEBUG_INFORMATION_FORMAT[config=Release]": "dwarf-with-dsym",
+    "DEVELOPMENT_TEAM": "25X4VXN3L2",
     "DRIVERKIT_DEPLOYMENT_TARGET": "27.2",
     "ENABLE_NS_ASSERTIONS[config=Release]": "NO",
     "ENABLE_STRICT_OBJC_MSGSEND": "YES",
@@ -152,6 +152,6 @@
     "WATCHOS_DEPLOYMENT_TARGET": "27.2",
     "XROS_DEPLOYMENT_TARGET": "27.2",
   },
-  "last-upgrade": "27.0",
+  "last-upgrade": "27.3",
   "last-swift-update": "27.0",
 }
